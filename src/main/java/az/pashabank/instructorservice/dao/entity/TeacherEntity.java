@@ -11,9 +11,7 @@ import javax.persistence.*;
 
 @Table(name = "teacherData")
 @Entity
-@Getter
-@Setter
-@ToString
+@Data
 @RequiredArgsConstructor
 @AllArgsConstructor
 @Builder
